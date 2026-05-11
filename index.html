@@ -9,80 +9,79 @@
 </head>
 <body>
 
-    <div class="app-container">
-        <div class="brand-header">
-            <div class="logo-placeholder">I.R.I.GEM</div>
+    <div class="contenitore-app">
+        <div class="intestazione-brand">
+            <div class="logo">I.R.I.GEM</div>
             <h1>CONTEGGIO FINE SCUOLA</h1>
         </div>
 
-        <div class="button-hint">
+        <div class="suggerimento-pulsanti">
             (sono dei pulsanti questi cliccali) <span>↓</span>
         </div>
 
-        <div class="filter-wrapper">
-            <button id="btn-all" class="filter-btn active" onclick="setMode('all')">TUTTI I GIORNI</button>
-            <button id="btn-school" class="filter-btn" onclick="setMode('school')">SOLO SCUOLA</button>
+        <div class="contenitore-filtri">
+            <button id="btn-tutti" class="pulsante-filtro attivo" onclick="setMode('all')">TUTTI I GIORNI</button>
+            <button id="btn-scuola" class="pulsante-filtro" onclick="setMode('school')">SOLO SCUOLA</button>
         </div>
 
-        <div class="main-timer">
-            <div class="time-slot">
-                <div id="display-d" class="number">00</div>
-                <div class="label">GIORNI</div>
+        <div class="timer-principale">
+            <div class="slot-tempo">
+                <div id="display-giorni" class="numero">00</div>
+                <div class="etichetta">GIORNI</div>
             </div>
-            <div class="time-slot">
-                <div id="display-h" class="number">00</div>
-                <div class="label">ORE</div>
+            <div class="slot-tempo">
+                <div id="display-ore" class="numero">00</div>
+                <div class="etichetta">ORE</div>
             </div>
-            <div class="time-slot">
-                <div id="display-m" class="number">00</div>
-                <div class="label">MINUTI</div>
+            <div class="slot-tempo">
+                <div id="display-minuti" class="numero">00</div>
+                <div class="etichetta">MINUTI</div>
             </div>
-            <div class="time-slot">
-                <div id="display-s" class="number">00</div>
-                <div class="label">SECONDI</div>
+            <div class="slot-tempo">
+                <div id="display-secondi" class="numero">00</div>
+                <div class="etichetta">SECONDI</div>
             </div>
         </div>
 
-        <div class="summary-box">
+        <div class="riquadro-riepilogo">
             
-            <div class="stat-item">
-                <span class="stat-label">Data fine:</span>
-                <span class="stat-value">11 Giugno, 12:25</span>
+            <div class="elemento-stat">
+                <span class="etichetta-stat">Data fine:</span>
+                <span class="valore-stat">11 Giugno, 12:25</span>
             </div>
-            <div class="stat-item">
-                <span class="stat-label">non so se e cosi pure per bassano</span>
+            <div class="elemento-stat">
+                <span class="etichetta-stat">non so se e cosi pure per bassano</span>
             </div>
-            <div class="stat-item">
-                <span class="stat-label">vabbe un giorno finira'</span>
+            <div class="elemento-stat">
+                <span class="etichetta-stat">vabbe un giorno finira'</span>
             </div>
         </div>
 
-        <div class="credits-section">
+        <div class="sezione-crediti">
             meriti: ringraziamo tutti <strong>Rossetto</strong> uno dei migliori prof ci lascera' sfortunatamente quest'anno
 
         </div>
 
-        <div class="credits-tiron">
+        <div class="crediti-tiron">
          sito fatto da tiron (tncellina su ig)
          se vuoi essere sponsoratx scrivimi
         </div>
-        <div class="sponsor-area">
-            <div class="sponsor-title">SPONSOR STUDENTI IRIGEM</div>
-            <div class="sponsor-list">
-                <span class="sponsor-name">tncellina</span>
-                <span class="sponsor-name">davitekpc</span>
-                <span class="sponsor-name">dreshajalbin</span>
-                <span class="sponsor-name">harun_bajramovski</span>
-                <span class="sponsor-name">cristian.cernega</span>
-                <span class="sponsor-name">_fill22</span>
-                <span class="sponsor-name">giorgio.lazari</span>
-                <span class="sponsor-name"></span>
-                <span class="sponsor-name"></span>
-                <span class="sponsor-name"></span>
+        <div class="area-sponsor">
+            <div class="titolo-sponsor">SPONSOR STUDENTI IRIGEM</div>
+            <div class="lista-sponsor">
+                <span class="nome-sponsor">tncellina</span>
+                <span class="nome-sponsor">davitekpc</span>
+                <span class="nome-sponsor">dreshajalbin</span>
+                <span class="nome-sponsor">harun_bajramovski</span>
+                <span class="nome-sponsor">cristian.cernega</span>
+                <span class="nome-sponsor">_fill22</span>
+                <span class="nome-sponsor">giorgio.lazari</span>
+                <span class="nome-sponsor"></span>
+                <span class="nome-sponsor"></span>
+                <span class="nome-sponsor"></span>
             </div>
         </div>
     </div>
-    
 
     <script src="script.js"></script>
 </body>

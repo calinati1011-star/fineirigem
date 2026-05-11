@@ -11,7 +11,7 @@ body {
     box-sizing: border-box;
 }
 
-.app-container {
+.contenitore-app {
     background: #ffffff;
     width: 100%;
     max-width: 400px;
@@ -21,12 +21,12 @@ body {
     box-sizing: border-box;
 }
 
-.brand-header {
+.intestazione-brand {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.logo-placeholder {
+.logo {
     font-weight: 900;
     font-size: 28px;
     color: #003366;
@@ -42,7 +42,7 @@ h1 {
     padding: 3px 10px;
 }
 
-.button-hint {
+.suggerimento-pulsanti {
     font-size: 10px;
     color: #888;
     text-align: center;
@@ -50,19 +50,19 @@ h1 {
     font-style: italic;
 }
 
-.button-hint span {
+.suggerimento-pulsanti span {
     display: block;
     font-size: 12px;
     margin-top: -2px;
 }
 
-.filter-wrapper {
+.contenitore-filtri {
     display: flex;
     gap: 8px;
     margin-bottom: 20px;
 }
 
-.filter-btn {
+.pulsante-filtro {
     flex: 1;
     padding: 12px 5px;
     border: 1px solid #003366;
@@ -75,86 +75,84 @@ h1 {
     outline: none;
 }
 
-.filter-btn.active {
+.pulsante-filtro.attivo {
     background: #003366;
     color: #fff;
 }
 
-.main-timer {
+.timer-principale {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
     margin-bottom: 20px;
 }
 
-.time-slot {
+.slot-tempo {
     border: 1px solid #003366;
     padding: 8px 0;
     text-align: center;
     background: #fff;
 }
 
-.number {
+.numero {
     font-size: 24px;
     font-weight: 900;
 }
 
-.label {
+.etichetta {
     font-size: 8px;
     font-weight: bold;
 }
 
-.summary-box {
+.riquadro-riepilogo {
     background: #f4f7fa;
     padding: 12px;
     border-left: 3px solid #003366;
     margin-bottom: 20px;
 }
 
-.stat-item {
+.elemento-stat {
     display: flex;
     justify-content: space-between;
     margin-bottom: 4px;
 }
 
-.stat-label {
+.etichetta-stat {
     font-size: 12px;
     font-weight: bold;
 }
 
-.stat-value {
+.valore-stat {
     font-weight: 900;
     font-size: 12px;
 }
 
-.credits-section {
+.sezione-crediti {
     font-size: 11px;
     text-align: center;
-    
     padding-top: 5px;
     padding-bottom: 15px;
     line-height: 1.4;
     font-style: italic;
 }
 
-.credits-tiron {
+.crediti-tiron {
     font-size: 20px;
     text-align: center;
-    
     padding-top: 15px;
     padding-bottom: 15px;
     line-height: 1.4;
     font-style: italic;
 }
 
-.sponsor-area {
+.area-sponsor {
     margin-top: 15px;
     padding-top: 10px;
     border-top: 1px solid #003366;
     text-align: center;
 }
 
-.sponsor-title {
+.titolo-sponsor {
     font-size: 10px;
     font-weight: 900;
     color: #003366;
@@ -162,14 +160,14 @@ h1 {
     letter-spacing: 1px;
 }
 
-.sponsor-list {
+.lista-sponsor {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
 }
 
-.sponsor-name {
+.nome-sponsor {
     font-size: 12px;
     color: #555;
     background: #f0f4f8;
